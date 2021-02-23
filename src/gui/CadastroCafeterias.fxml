@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="258.0" prefWidth="435.0"
+	xmlns="http://javafx.com/javafx/15.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="gui.CadastroCafeteriasController">
+	<children>
+		<Label text="Cadastro Cafeterias">
+			<font>
+				<Font name="System Bold" size="12.0" />
+			</font>
+			<padding>
+				<Insets bottom="10.0" left="20.0" top="10.0" />
+			</padding>
+		</Label>
+		<Label text="Digite o nome da Cafeteria 1" />
+		<TextField fx:id="txtNomeCafe1" onAction="#onTxtNomeCafe1"
+			promptText="Nome Cafeteria 1" />
+		<Label text="Digite a lotação da Cafeteria 1" />
+		<TextField fx:id="txtLotacaoCafe1"
+			onAction="#onTxtLotacaoCafe1" promptText="Lotação Cafeteria 1" />
+		<Button fx:id="btAdicionaCafe1" mnemonicParsing="false"
+			onAction="#onBtAdicionaCafe1Action" text="Adicionar" />
+		<Label text="Digite o nome da Cafeteria 2" />
+		<TextField fx:id="txtNomeCafe2" onAction="#onTxtNomeCafe2"
+			promptText="Nome Cafeteria 2" />
+		<Label text="Digite a lotação da Cafeteria 2" />
+		<TextField fx:id="txtLotacaoCafe2"
+			onAction="#onTxtLotacaoCafe2" promptText="Lotação Cafeteria 2" />
+		<Button fx:id="btAdicionaCafe2" mnemonicParsing="false"
+			onAction="#onBtAdicionaCafe2Action" text="Adicionar">
+			<VBox.margin>
+				<Insets />
+			</VBox.margin>
+		</Button>
+	</children>
+</VBox>

@@ -1,8 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.control.Menu?>
+<?import javafx.scene.control.MenuBar?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
 
-<AnchorPane xmlns:fx="http://javafx.com/fxml/1">
-	<!-- TODO Add Nodes -->
-</AnchorPane>
-
+<ScrollPane maxHeight="-Infinity" maxWidth="-Infinity"
+	minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0"
+	prefWidth="600.0" xmlns="http://javafx.com/javafx/15.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="gui.MainViewController">
+	<content>
+		<VBox prefHeight="322.0" prefWidth="479.0">
+			<children>
+				<MenuBar>
+					<menus>
+						<Menu mnemonicParsing="false" text="Cadastro">
+							<items>
+								<MenuItem fx:id="menuCadastroAlunos"
+									mnemonicParsing="false" onAction="#onMenuCadastroAlunosAction"
+									text="Alunos" />
+								<MenuItem fx:id="menuCadastroSalas"
+									mnemonicParsing="false" onAction="#onMenuCadastroSalasAction"
+									text="Salas" />
+								<MenuItem fx:id="menuCadastroCafes"
+									mnemonicParsing="false" onAction="#onMenuCadastroCafesAction"
+									text="Cafeterias" />
+							</items>
+						</Menu>
+						<Menu mnemonicParsing="false" text="Consulta">
+							<items>
+								<MenuItem fx:id="menuConsultaAlunos"
+									mnemonicParsing="false" onAction="#onMenuConsultaAlunosAction"
+									text="Alunos" />
+								<MenuItem fx:id="menuConsultaSalas"
+									mnemonicParsing="false" onAction="#onMenuConsultaSalasAction"
+									text="Salas" />
+								<MenuItem fx:id="menuConsultaCafes"
+									mnemonicParsing="false" onAction="#onMenuConsultaCafesAction"
+									text="Cafeterias" />
+							</items>
+						</Menu>
+					</menus>
+				</MenuBar>
+				<Text strokeType="OUTSIDE" strokeWidth="0.0"
+					text="Bem vindo ao Sistema de Cadastro de Alunos, Salas, e Cafeterias."
+					wrappingWidth="535.13671875">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Text>
+				<Text strokeType="OUTSIDE" strokeWidth="0.0"
+					text="Cadastre quantos alunos quiser." wrappingWidth="398.13671875">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Text>
+				<Text strokeType="OUTSIDE" strokeWidth="0.0"
+					text="Cadastre 2 salas e sua lotação." wrappingWidth="398.13671875">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Text>
+				<Text strokeType="OUTSIDE" strokeWidth="0.0"
+					text="Cadastre 2 cafeterias e sua lotação."
+					wrappingWidth="398.13671875">
+					<font>
+						<Font size="18.0" />
+					</font>
+				</Text>
+			</children>
+		</VBox>
+	</content>
+</ScrollPane>

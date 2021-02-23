@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="258.0" prefWidth="435.0"
+	xmlns="http://javafx.com/javafx/15.0.1"
+	xmlns:fx="http://javafx.com/fxml/1"
+	fx:controller="gui.CadastroSalasController">
+	<children>
+		<Label text="Cadastro Salas">
+			<font>
+				<Font name="System Bold" size="12.0" />
+			</font>
+			<padding>
+				<Insets bottom="10.0" left="20.0" top="10.0" />
+			</padding>
+		</Label>
+		<Label text="Digite o nome da Sala 1" />
+		<TextField fx:id="txtNomeSala1" onAction="#onTxtNomeSala1"
+			promptText="Nome Sala 1" />
+		<Label text="Digite a lotação da sala 1" />
+		<TextField fx:id="txtLotacaoSala1"
+			onAction="#onTxtLotacaoSala1" promptText="Lotação Sala 1" />
+		<Button fx:id="btAdicionaSala1" mnemonicParsing="false"
+			onAction="#onBtAdicionaSala1Action" text="Adicionar" />
+		<Label text="Digite o nome da Sala 2" />
+		<TextField fx:id="txtNomeSala2" onAction="#onTxtNomeSala2"
+			promptText="Nome Sala 2" />
+		<Label text="Digite a lotação da sala 1" />
+		<TextField fx:id="txtLotacaoSala2"
+			onAction="#onTxtLotacaoSala2" promptText="Loação da Sala 2" />
+		<Button fx:id="btAdicionaSala2" mnemonicParsing="false"
+			onAction="#onBtAdicionaSala2Action" text="Adicionar">
+			<VBox.margin>
+				<Insets />
+			</VBox.margin>
+		</Button>
+	</children>
+</VBox>
