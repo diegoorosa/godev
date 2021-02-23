@@ -14,6 +14,7 @@ Baixar o openFX 11.0.2 e extrair para a pasta C:\java-libs
 
 Adicionar a variavel de ambiente de sistema o PATH_TO_FX com o caminho C:\java-libs\javafx-sdk-11.0.2
 
-Baixar o arquivo Desafio-GoDev.jar e o arquivo GoDev.bat
+Baixar o arquivo godev.rar pelo link: 
+https://www.dropbox.com/s/91zwvmwrrqhtyix/godev.rar?dl=0
 
 Para rodar a aplicação é só executar o arquivo GoDev.bat
