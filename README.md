@@ -18,3 +18,17 @@ Baixar o arquivo godev.rar pelo link:
 https://www.dropbox.com/s/91zwvmwrrqhtyix/godev.rar?dl=0
 
 Para rodar a aplicação é só executar o arquivo GoDev.bat
+
+-------------------------------------------------------------------------------------------------
+
+Na tela principal do programa você escolhe a aba de cadastro e cadastra quantos alunos quer e seus respectivos nomes.
+
+Cadastra as 2 salas e suas respectivas capacidades.
+
+Cadastra as 2 cafeterias e suas respectivas capacidades.
+
+Na aba de consulta você pode consultar o nome do aluno para descobrir as salas em cada um dos perodos do curso e o local do café.
+
+Pode consulta os as salas para ver quais alunos estarão em cada período.´
+
+Pode consultar também as salas do café para ver quais alunos estão nelas.
