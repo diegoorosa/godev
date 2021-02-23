@@ -21,7 +21,7 @@ Para rodar a aplicação é só executar o arquivo GoDev.bat
 
 -------------------------------------------------------------------------------------------------
 
-Na tela principal do programa você escolhe a aba de cadastro e cadastra quantos alunos quer e seus respectivos nomes.
+Na tela principal do programa você escolhe a aba de cadastro e cadastra quantos alunos quer com seus respectivos nomes.
 
 Cadastra as 2 salas e suas respectivas capacidades.
 
